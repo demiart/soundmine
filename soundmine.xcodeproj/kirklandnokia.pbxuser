@@ -1,0 +1,82 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecture = x86_64;
+		activeBuildConfigurationName = Release;
+		activeExecutable = 4191B66E0FC4A7D100FF07A7 /* soundmine */;
+		activeTarget = 8D1107260486CEB800E47090 /* soundmine */;
+		codeSenseManager = 4191B67E0FC4A7D500FF07A7 /* Code sense */;
+		executables = (
+			4191B66E0FC4A7D100FF07A7 /* soundmine */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 264546257;
+			PBXWorkspaceStateSaveDate = 264546257;
+		};
+		sourceControlManager = 4191B67D0FC4A7D500FF07A7 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4191B66E0FC4A7D100FF07A7 /* soundmine */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = soundmine;
+		sourceDirectories = (
+		);
+	};
+	4191B67D0FC4A7D500FF07A7 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	4191B67E0FC4A7D500FF07A7 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D1107260486CEB800E47090 /* soundmine */ = {
+		activeExec = 0;
+		executables = (
+			4191B66E0FC4A7D100FF07A7 /* soundmine */,
+		);
+	};
+}
