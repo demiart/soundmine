@@ -8,3 +8,12 @@ Week of May 16 to May 21:
 - posed question on forums to get some assistance regarding the Core Audio classes and usage.
 - fixed xcode with software update
 - created starter MacRuby project in xcode.
+- Read a number of chapters in Aaron Hillegass' "Cocoa Programming for OS X"
+- Looked into subclassing NSButton for purposes of making a nice toggle.  Settled on a set default button for now.
+- Built basic interface nib with on/off toggle button
+- Created starter classes for Objective-C Audio Queue calling code.
+- Read answers to questions on core audio.  Refer to:
+      1. http://zathras.de/programming/cocoa/UKSoundFileRecorder.zip/
+	  2. http://www.cocoadev.com/index.pl?HowToRecordSound
+	  3. http://developer.apple.com/documentation/MusicAudio/Conceptual/CoreAudioOverview/Introduction/Introduction.html
+
