@@ -197,48 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>4108844C0FC7937800F484F1</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>Controller.rb</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>4108844D0FC7937800F484F1</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>Controller.rb</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>41BC50F00FC7AC93002ADE96</string>
-						<key>history</key>
-						<array>
-							<string>41BC50E00FC7ABCD002ADE96</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {750, 461}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>558 139 750 502 0 0 1440 878 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -327,7 +286,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -569,11 +527,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
+		<string>41BC51220FC7BDA9002ADE96</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>4191B6820FC4B3EB00FF07A7</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/kirklandnokia/Desktop/soundmine/soundmine.xcodeproj</string>
-		<string>4108844C0FC7937800F484F1</string>
 	</array>
 	<key>WindowString</key>
 	<string>322 -50 1030 736 0 0 1440 878 </string>
@@ -953,7 +911,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

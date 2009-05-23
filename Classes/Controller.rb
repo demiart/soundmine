@@ -7,7 +7,7 @@
 #
 
 class Controller
-	attr_accessor :goButton
+	attr_accessor :goButton, :mainAudioView
 
     def initialize
 	    @isRecording = false
@@ -17,7 +17,11 @@ class Controller
 	    @isRecording = !@isRecording
 		puts "is recording = #{@isRecording}" #logs to console
 		#puts goButton.methods(true, true)
-		
+		if @isRecording then
+		    @goButton.setTitle "stop"
+		else
+		    @goButton.setTitle "record"
+		end
 		
 	end
 end
