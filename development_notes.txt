@@ -23,3 +23,13 @@ Plan for week of May 22 through May 28:
 - first stage: output to log at intervals some information about data being passed through.
 - capture data to file
 - if time permits, some in-view display
+
+Week of May 22 to May 29:
+- read through CoreAudio documentation (at least a good portion of it)
+- read more Hillegass
+- Found and downloaded a framework, "MTCoreAudio.framework", which is an Objective-C wrapper around the HAL of CoreAudio.  It looks as if it may simplify development.
+- Added MTCoreAudio to the project in a dependency directory as a zip file.  In order to build the project the framework must be installed and the reference to the framework corrected.
+- MTCoreAudio is located at: http://aldebaran.armory.com/~zenomt/macosx/MTCoreAudio/
+- located a number of sample projects using MTCoreAudio, including one that records from the input device.  Ref: http://borkware.com/rants/sound/
+- read an article at: http://old.macedition.com/bolts/bolts_20030509.php
+

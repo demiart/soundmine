@@ -310,7 +310,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>322 -50 1030 736 0 0 1440 878 </string>
+						<string>-224 58 1030 736 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -347,7 +347,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {822, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>322 -50 1030 736 0 0 1440 878 </string>
+								<string>-224 58 1030 736 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -367,7 +367,7 @@
 								<key>Frame</key>
 								<string>{{0, 5}, {822, 690}}</string>
 								<key>RubberWindowFrame</key>
-								<string>322 -50 1030 736 0 0 1440 878 </string>
+								<string>-224 58 1030 736 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -391,9 +391,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>41BC50DB0FC7A739002ADE96</string>
+				<string>41070E5D0FCC8BB7004782DC</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>41BC50DC0FC7A739002ADE96</string>
+				<string>41070E5E0FCC8BB7004782DC</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -527,14 +527,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>41BC51220FC7BDA9002ADE96</string>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>4191B6820FC4B3EB00FF07A7</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/kirklandnokia/Desktop/soundmine/soundmine.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>322 -50 1030 736 0 0 1440 878 </string>
+	<string>-224 58 1030 736 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
