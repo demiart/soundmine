@@ -32,4 +32,10 @@ Week of May 22 to May 29:
 - MTCoreAudio is located at: http://aldebaran.armory.com/~zenomt/macosx/MTCoreAudio/
 - located a number of sample projects using MTCoreAudio, including one that records from the input device.  Ref: http://borkware.com/rants/sound/
 - read an article at: http://old.macedition.com/bolts/bolts_20030509.php
+- Modified a sample app to determine how to connect to the default Built-in input source using MTCoreAudio.  Was able to note data capture on record.
+- Modified target architecture to be able to use MTCoreAudio
+- Receiving an error that the app is GC, but the framework (MTCoreAudio) is not.  This needs to be fixed somehow.  Looking into options.
+- Opened MTCoreAudio source project, modded, and rebuilt as GC-OK.  Received additional build errors regarding architecture.
+- Rebuilt MTCoreAudio framework for correct architecture and OS version.  Linked properly.
+- Enum values of MTCoreAudio are not understood within MacRuby... Looking into issue.
 

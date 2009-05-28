@@ -10,16 +10,17 @@ class Controller
 	attr_accessor :goButton, :mainAudioView
 
     def initialize
-	    @isRecording = false
+		#@coreAudioInputDevice = MTCoreAudioDevice.devicesWithName("Built-in Input", havingStreamsForDirection:kMTCoreAudioDeviceRecordDirection)
+		
 	end
 
 	def handleRecordingButtonChange(sender)
-	    @isRecording = !@isRecording
-		puts "is recording = #{@isRecording}" #logs to console
-		#puts goButton.methods(true, true)
-		if @isRecording then
+	    #puts @coreAudioInputDevice.description
+		if @goButton.state == 0 then
+		    puts "stopping"
 		    @goButton.setTitle "stop"
 		else
+		    puts "starting"
 		    @goButton.setTitle "record"
 		end
 		

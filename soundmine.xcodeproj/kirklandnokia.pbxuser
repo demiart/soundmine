@@ -1,8 +1,7 @@
 // !$*UTF8*$!
 {
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeArchitecture = x86_64;
-		activeBuildConfigurationName = Release;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = 4191B66E0FC4A7D100FF07A7 /* soundmine */;
 		activeTarget = 8D1107260486CEB800E47090 /* soundmine */;
 		addToTargets = (
@@ -35,8 +34,46 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 265063341;
-			PBXWorkspaceStateSaveDate = 265063341;
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					543,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 265168950;
+			PBXWorkspaceStateSaveDate = 265168950;
+		};
+		perUserProjectItems = {
+			413F62A40FCE228400A8534C = 413F62A40FCE228400A8534C /* PBXTextBookmark */;
+			413F62A50FCE228400A8534C = 413F62A50FCE228400A8534C /* PBXTextBookmark */;
+			413F62A60FCE228400A8534C = 413F62A60FCE228400A8534C /* PBXTextBookmark */;
+			413F62AA0FCE228400A8534C = 413F62AA0FCE228400A8534C /* PBXTextBookmark */;
+			413F62AB0FCE228400A8534C = 413F62AB0FCE228400A8534C /* PBXTextBookmark */;
+			413F62AC0FCE228400A8534C = 413F62AC0FCE228400A8534C /* PBXTextBookmark */;
+			413F62AD0FCE228400A8534C = 413F62AD0FCE228400A8534C /* PBXTextBookmark */;
+			413F62AE0FCE228400A8534C = 413F62AE0FCE228400A8534C /* PBXTextBookmark */;
+			413F62B10FCE228400A8534C = 413F62B10FCE228400A8534C /* PBXTextBookmark */;
+			415F8FF50FCE27C700F9A171 = 415F8FF50FCE27C700F9A171 /* PBXTextBookmark */;
+			415F8FF60FCE27C700F9A171 = 415F8FF60FCE27C700F9A171 /* PBXTextBookmark */;
+			415F903A0FCE2ADD00F9A171 /* PBXTextBookmark */ = 415F903A0FCE2ADD00F9A171 /* PBXTextBookmark */;
+			419B89BD0FCE23CB007591FA = 419B89BD0FCE23CB007591FA /* PBXTextBookmark */;
+			419B89BE0FCE23CB007591FA = 419B89BE0FCE23CB007591FA /* PBXTextBookmark */;
 		};
 		sourceControlManager = 4191B67D0FC4A7D500FF07A7 /* Source Control */;
 		userBuildSettings = {
@@ -44,7 +81,7 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
+			sepNavIntBoundsRect = "{{0, 0}, {761, 549}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 243}";
 			sepNavWindowFrame = "{{1574, 300}, {750, 558}}";
@@ -52,11 +89,131 @@
 	};
 	4102AB760FC5024C00163762 /* Controller.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 407}}";
-			sepNavSelRange = "{463, 0}";
-			sepNavVisRange = "{0, 523}";
-			sepNavWindowFrame = "{{558, 83}, {750, 558}}";
+			sepNavIntBoundsRect = "{{0, 0}, {876, 549}}";
+			sepNavSelRange = "{597, 0}";
+			sepNavVisRange = "{0, 607}";
+			sepNavWindowFrame = "{{53, 74}, {750, 558}}";
 		};
+	};
+	413F62A40FCE228400A8534C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 41BC50FF0FC7AD2C002ADE96 /* development_notes.txt */;
+		name = "development_notes.txt: 38";
+		rLen = 0;
+		rLoc = 2783;
+		rType = 0;
+		vrLen = 1027;
+		vrLoc = 1619;
+	};
+	413F62A50FCE228400A8534C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 41BC51040FC7B340002ADE96 /* AudioQueue.h */;
+		name = "AudioQueue.h: 17";
+		rLen = 0;
+		rLoc = 202;
+		rType = 0;
+		vrLen = 202;
+		vrLoc = 0;
+	};
+	413F62A60FCE228400A8534C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 41BC51050FC7B340002ADE96 /* AudioQueue.m */;
+		name = "AudioQueue.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 190;
+		vrLoc = 0;
+	};
+	413F62AA0FCE228400A8534C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 41BC50FF0FC7AD2C002ADE96 /* development_notes.txt */;
+		name = "development_notes.txt: 38";
+		rLen = 0;
+		rLoc = 2783;
+		rType = 0;
+		vrLen = 1027;
+		vrLoc = 1619;
+	};
+	413F62AB0FCE228400A8534C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 41BC51040FC7B340002ADE96 /* AudioQueue.h */;
+		name = "AudioQueue.h: 17";
+		rLen = 0;
+		rLoc = 202;
+		rType = 0;
+		vrLen = 202;
+		vrLoc = 0;
+	};
+	413F62AC0FCE228400A8534C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 41BC51050FC7B340002ADE96 /* AudioQueue.m */;
+		name = "AudioQueue.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 190;
+		vrLoc = 0;
+	};
+	413F62AD0FCE228400A8534C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4102AB760FC5024C00163762 /* Controller.rb */;
+		name = "Controller.rb: 13";
+		rLen = 0;
+		rLoc = 210;
+		rType = 0;
+		vrLen = 608;
+		vrLoc = 0;
+	};
+	413F62AE0FCE228400A8534C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */;
+		name = "rb_main.rb: 12";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 552;
+		vrLoc = 0;
+	};
+	413F62B10FCE228400A8534C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 243;
+		vrLoc = 0;
+	};
+	415F8FF50FCE27C700F9A171 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */;
+		name = "rb_main.rb: 12";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 552;
+		vrLoc = 0;
+	};
+	415F8FF60FCE27C700F9A171 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */;
+		name = "rb_main.rb: 12";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 552;
+		vrLoc = 0;
+	};
+	415F903A0FCE2ADD00F9A171 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */;
+		name = "rb_main.rb: 12";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 552;
+		vrLoc = 0;
 	};
 	4191B66E0FC4A7D100FF07A7 /* soundmine */ = {
 		isa = PBXExecutable;
@@ -79,6 +236,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = soundmine;
+		savedGlobals = {
+		};
 		sourceDirectories = (
 		);
 	};
@@ -93,20 +252,47 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
+	419B89BD0FCE23CB007591FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4102AB760FC5024C00163762 /* Controller.rb */;
+		name = "Controller.rb: 26";
+		rLen = 0;
+		rLoc = 597;
+		rType = 0;
+		vrLen = 607;
+		vrLoc = 0;
+	};
+	419B89BE0FCE23CB007591FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 243;
+		vrLoc = 0;
+	};
 	41BC50FF0FC7AD2C002ADE96 /* development_notes.txt */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {740, 407}}";
-			sepNavSelRange = "{1658, 0}";
-			sepNavVisRange = "{0, 1659}";
-			sepNavWindowFrame = "{{61, 273}, {750, 558}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1116, 560}}";
+			sepNavSelRange = "{2783, 0}";
+			sepNavVisRange = "{594, 2190}";
+			sepNavWindowFrame = "{{349, 98}, {750, 558}}";
 		};
 	};
 	41BC51040FC7B340002ADE96 /* AudioQueue.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
-			sepNavSelRange = "{0, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {761, 526}}";
+			sepNavSelRange = "{202, 0}";
 			sepNavVisRange = "{0, 202}";
 			sepNavWindowFrame = "{{107, 231}, {750, 558}}";
+		};
+	};
+	41BC51050FC7B340002ADE96 /* AudioQueue.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 526}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 190}";
 		};
 	};
 	41BC510C0FC7B7A4002ADE96 /* AudioView.h */ = {
@@ -127,10 +313,10 @@
 	};
 	4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 528}";
-			sepNavWindowFrame = "{{1836, 42}, {750, 558}}";
+			sepNavIntBoundsRect = "{{0, 0}, {761, 526}}";
+			sepNavSelRange = "{233, 0}";
+			sepNavVisRange = "{0, 552}";
+			sepNavWindowFrame = "{{294, 66}, {750, 558}}";
 		};
 	};
 	8D1107260486CEB800E47090 /* soundmine */ = {
