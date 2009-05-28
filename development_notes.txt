@@ -25,7 +25,7 @@ Plan for week of May 22 through May 28:
 - if time permits, some in-view display
 
 Week of May 22 to May 29:
-- read through CoreAudio documentation (at least a good portion of it)
+- read through CoreAudio documentation (at least a good portion of it - it is massive)
 - read more Hillegass
 - Found and downloaded a framework, "MTCoreAudio.framework", which is an Objective-C wrapper around the HAL of CoreAudio.  It looks as if it may simplify development.
 - Added MTCoreAudio to the project in a dependency directory as a zip file.  In order to build the project the framework must be installed and the reference to the framework corrected.
@@ -39,4 +39,6 @@ Week of May 22 to May 29:
 - Rebuilt MTCoreAudio framework for correct architecture and OS version.  Linked properly.
 - Enum values of MTCoreAudio are not understood within MacRuby... Looking into issue.
 - zipped modded framework and placed in dependency directory.
+- was able to get the input device linked-in through macruby.
+- issues with registering a callback method / selector...
 

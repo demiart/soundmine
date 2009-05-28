@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>415F90590FCE2DE600F9A171</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>development_notes.txt</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>415F905A0FCE2DE600F9A171</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>development_notes.txt</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>415F905B0FCE2DE600F9A171</string>
+						<key>history</key>
+						<array>
+							<string>415F90520FCE2B9200F9A171</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {750, 461}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>85 82 750 502 0 0 1440 878 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -286,8 +327,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>29</integer>
-									<integer>28</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -310,7 +351,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>401 92 1030 736 0 0 1440 878 </string>
+						<string>225 114 1030 736 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -326,7 +367,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>rb_main.rb</string>
+								<string>Controller.rb</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -334,19 +375,19 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>rb_main.rb</string>
+										<string>Controller.rb</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>415F903A0FCE2ADD00F9A171</string>
+										<string>415F90580FCE2DE600F9A171</string>
 										<key>history</key>
 										<array>
 											<string>413F62A40FCE228400A8534C</string>
 											<string>413F62A50FCE228400A8534C</string>
 											<string>413F62A60FCE228400A8534C</string>
-											<string>419B89BD0FCE23CB007591FA</string>
 											<string>419B89BE0FCE23CB007591FA</string>
-											<string>415F8FF60FCE27C700F9A171</string>
+											<string>415F90550FCE2DE600F9A171</string>
+											<string>415F90560FCE2DE600F9A171</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -356,6 +397,7 @@
 											<string>413F62AD0FCE228400A8534C</string>
 											<string>413F62AE0FCE228400A8534C</string>
 											<string>413F62B10FCE228400A8534C</string>
+											<string>415F90570FCE2DE600F9A171</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -369,7 +411,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {822, 581}}</string>
 								<key>RubberWindowFrame</key>
-								<string>401 92 1030 736 0 0 1440 878 </string>
+								<string>225 114 1030 736 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -389,7 +431,7 @@
 								<key>Frame</key>
 								<string>{{0, 586}, {822, 109}}</string>
 								<key>RubberWindowFrame</key>
-								<string>401 92 1030 736 0 0 1440 878 </string>
+								<string>225 114 1030 736 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -549,13 +591,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>4191B6820FC4B3EB00FF07A7</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>/Users/kirklandnokia/Desktop/soundmine/soundmine.xcodeproj</string>
+		<string>415F90590FCE2DE600F9A171</string>
 	</array>
 	<key>WindowString</key>
-	<string>401 92 1030 736 0 0 1440 878 </string>
+	<string>225 114 1030 736 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -932,7 +974,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
