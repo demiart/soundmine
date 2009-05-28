@@ -38,4 +38,5 @@ Week of May 22 to May 29:
 - Opened MTCoreAudio source project, modded, and rebuilt as GC-OK.  Received additional build errors regarding architecture.
 - Rebuilt MTCoreAudio framework for correct architecture and OS version.  Linked properly.
 - Enum values of MTCoreAudio are not understood within MacRuby... Looking into issue.
+- zipped modded framework and placed in dependency directory.
 
