@@ -11,24 +11,20 @@ class Controller
 
     def initialize
 		@soundBuffer = []		
-		@coreAudioInputDevice = MTCoreAudioDevice.devicesWithName("Built-in Input", havingStreamsForDirection:1)[0] #1 is record direction
-	    #puts @coreAudioInputDevice.description
-		#puts @coreAudioInputDevice.methods(true, true)
-		@coreAudioInputDevice.setIOTarget(self, withSelector:'testselector:', withClientData:nil)
+		@audioQ = AudioQueue.new
 	end
 
 	def handleRecordingButtonChange(sender)
 		if @goButton.state == 0 then
 		    puts "stopping"
 		    @goButton.setTitle "stop"
-			@coreAudioInputDevice.deviceStop
+			@audioQ.stopRecording
 		else
 		    puts "starting"
 		    @goButton.setTitle "record"
-			@coreAudioInputDevice.deviceStart
 			p "start!"
+			@audioQ.startRecording
 		end
-		
 	end
 	
 	def testselector
@@ -36,9 +32,4 @@ class Controller
 		0
 	end
 	
-	def readCycleForDevice(theDevice, timeStamp, inputData, inputTime, outputData, outputTime, clientData)
-	    p "test"
-		buffer = inputData.mBuffers
-		0 #return noErr
-	end
 end

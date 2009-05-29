@@ -41,4 +41,7 @@ Week of May 22 to May 29:
 - zipped modded framework and placed in dependency directory.
 - was able to get the input device linked-in through macruby.
 - issues with registering a callback method / selector...
+- kept having issues with either the callback registration or with stack dumps - mostly due to unknown selectors.  Looked in forums and found little help.  
+- Moved core audio device functionality to objective-c class and kick it off from the ruby - this seems to work well.  Disappointed that the project may be a bit ruby-thin.  I may attempt pulling things back in later to see if i can get them working in the ruby code.
+- modified obj-c callback to log a byte in the buffer to prove that the data is variant when recording.  Now need to figure out how to either stream to file or buffer into memory until "stop".
 

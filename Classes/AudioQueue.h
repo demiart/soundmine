@@ -8,9 +8,14 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class MTCoreAudioDevice;
 
-@interface AudioQueue : NSObject {
-
+@interface AudioQueue : NSObject 
+{
+	MTCoreAudioDevice *inputDevice;
 }
+
+- (void) startRecording;
+- (void) stopRecording;
 
 @end
