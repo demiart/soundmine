@@ -22,6 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		4102AB770FC5024C00163762 /* Controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4102AB760FC5024C00163762 /* Controller.rb */; };
+		412F73950FD0665E007B8615 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 412F73940FD0665E007B8615 /* README */; };
 		415F902F0FCE29EB00F9A171 /* MTCoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415F902E0FCE29EB00F9A171 /* MTCoreAudio.framework */; };
 		41BC51000FC7AD2C002ADE96 /* development_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41BC50FF0FC7AD2C002ADE96 /* development_notes.txt */; };
 		41BC51060FC7B340002ADE96 /* AudioQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BC51050FC7B340002ADE96 /* AudioQueue.m */; };
@@ -43,6 +44,7 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		4102AB760FC5024C00163762 /* Controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = Controller.rb; path = Classes/Controller.rb; sourceTree = "<group>"; };
+		412F73940FD0665E007B8615 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		415F902E0FCE29EB00F9A171 /* MTCoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MTCoreAudio.framework; path = /System/Library/Frameworks/MTCoreAudio.framework; sourceTree = "<absolute>"; };
 		41BC50FF0FC7AD2C002ADE96 /* development_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = development_notes.txt; sourceTree = "<group>"; };
 		41BC51040FC7B340002ADE96 /* AudioQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioQueue.h; path = Classes/AudioQueue.h; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		29B97314FDCFA39411CA2CEA /* soundmine */ = {
 			isa = PBXGroup;
 			children = (
+				412F73940FD0665E007B8615 /* README */,
 				41BC50FF0FC7AD2C002ADE96 /* development_notes.txt */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -199,6 +202,7 @@
 				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
 				4102AB770FC5024C00163762 /* Controller.rb in Resources */,
 				41BC51000FC7AD2C002ADE96 /* development_notes.txt in Resources */,
+				412F73950FD0665E007B8615 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

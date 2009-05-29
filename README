@@ -1,3 +1,3 @@
-soundmine: an application in MacRuby for capturing audio from the mac audio queue and subsequently saving it to file.
+soundmine: an application in MacRuby for capturing audio from the mac built-in input and subsequently saving it to file.
 
 more to come...
