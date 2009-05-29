@@ -6,6 +6,20 @@
 	objectVersion = 44;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		412F73530FD064AB007B8615 /* macruby_embedded */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 412F73880FD064B4007B8615 /* Build configuration list for PBXAggregateTarget "macruby_embedded" */;
+			buildPhases = (
+				412F73520FD064AB007B8615 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = macruby_embedded;
+			productName = macruby_embedded;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		4102AB770FC5024C00163762 /* Controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4102AB760FC5024C00163762 /* Controller.rb */; };
 		415F902F0FCE29EB00F9A171 /* MTCoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415F902E0FCE29EB00F9A171 /* MTCoreAudio.framework */; };
@@ -170,6 +184,7 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* soundmine */,
+				412F73530FD064AB007B8615 /* macruby_embedded */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +203,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		412F73520FD064AB007B8615 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PATH=\"$PATH:/usr/local/bin\" /usr/bin/env macruby -r hotcocoa/application_builder -e \"HotCocoa::ApplicationBuilder.deploy(ARGV[0])\" $TARGET_BUILD_DIR/$PROJECT_NAME.app";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D11072C0486CEB800E47090 /* Sources */ = {
@@ -222,6 +253,27 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		412F73540FD064AB007B8615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = macruby_embedded;
+			};
+			name = Debug;
+		};
+		412F73550FD064AB007B8615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = macruby_embedded;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -282,6 +334,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		412F73880FD064B4007B8615 /* Build configuration list for PBXAggregateTarget "macruby_embedded" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412F73540FD064AB007B8615 /* Debug */,
+				412F73550FD064AB007B8615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "soundmine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

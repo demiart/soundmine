@@ -1,3 +1,7 @@
+$:.map! { |x| x.sub(/^\/Library\/Frameworks/, NSBundle.mainBundle.privateFrameworksPath) }
+$:.unshift NSBundle.mainBundle.resourcePath.fileSystemRepresentation
+
+
 #
 # rb_main.rb
 # soundmine
