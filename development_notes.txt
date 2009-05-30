@@ -18,7 +18,7 @@ Week of May 16 to May 21:
 	  3. http://developer.apple.com/documentation/MusicAudio/Conceptual/CoreAudioOverview/Introduction/Introduction.html
 - Subclassed and added an NSView for display.  Completed drawRect method (to create background - will become more complex.
 
-Plan for week of May 22 through May 28:
+Plan for week of May 22 through May 29:
 - add in audio listening code when button is activated
 - first stage: output to log at intervals some information about data being passed through.
 - capture data to file
