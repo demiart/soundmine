@@ -7,11 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <MTCoreAudio/MTCoreAudio.h>
 
 @class MTCoreAudioDevice;
 
 @interface AudioQueue : NSObject 
 {
+	AudioStreamBasicDescription * basicStreamDescription;
 	MTCoreAudioDevice *inputDevice;
 }
 

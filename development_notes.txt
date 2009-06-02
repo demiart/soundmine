@@ -45,3 +45,12 @@ Week of May 22 to May 29:
 - Moved core audio device functionality to objective-c class and kick it off from the ruby - this seems to work well.  Disappointed that the project may be a bit ruby-thin.  I may attempt pulling things back in later to see if i can get them working in the ruby code.
 - modified obj-c callback to log a byte in the buffer to prove that the data is variant when recording.  Now need to figure out how to either stream to file or buffer into memory until "stop".
 - embedded macruby into the target - the application contents should now include the macruby framework.
+
+Plan for week of May 30 through June 5:
+TODO
+
+Week of May 30 to June 5:
+- Did some research on web and in ADC for how to save audio data to file.
+- switched to use audio from built-in mic as it appears to work on a sample app.  I hope to look deeper into how to capture what I want once the rest of the app has been more-or-less completed.
+- figured out how to get stream description data and added logging for analytical purposes.
+- need to get into the c/c++ level - in preparation for using AudioToolbox and AudioFile libraries, wrote in allocation, population, and dealloc of AudioStreamBasicDescription struct.
