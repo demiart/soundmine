@@ -74,8 +74,31 @@
 	NSLog(@"File creation status: %i", status);
 	NSLog(@"File creation status string: %s", GetMacOSStatusErrorString(status));
 	NSLog(@"File creation comment: %s", GetMacOSStatusCommentString(status));
-	//NSLog(@"FSRef length = %i", strlen(audioFileFSPathRef->hidden));
 	NSLog(@"test %i", audioFileIDHandle);
+	if (audioFileIDHandle == 0) NSLog(@"Error: file already exists");
+	if (status == -48) [self _clearExistingAudioFile]; //existing file
+}
+
+- (void)_clearExistingAudioFile
+{
+	NSLog(@"file exists - clearing file contents");
+	//use existing path
+	//TODO: build path - don't use constant
+	char * path = "/Users/kirklandnokia/audiofile.wav";
+	Boolean myDir;
+	FSPathMakeRef((UInt8 *) path, audioFileFSPathRef, &myDir);
+	OSStatus status = AudioFileInitialize(
+		audioFileFSPathRef,
+		kAudioFileWAVEType,
+		basicStreamDescription,
+		0,
+		&audioFileIDHandle
+	);
+	NSLog(@"File clear status: %i", status);
+	NSLog(@"File clear status string: %s", GetMacOSStatusErrorString(status));
+	NSLog(@"File clear comment: %s", GetMacOSStatusCommentString(status));
+	NSLog(@"test %i", audioFileIDHandle);
+	if (audioFileIDHandle == 0) NSLog("Error: unable to clear file contents");
 }
 
 - (void)_setUpStreamDescription: (MTCoreAudioDevice *) device

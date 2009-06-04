@@ -62,3 +62,4 @@ Week of May 30 to June 5:
 - I am uncertain if the format error requires resolution by tweaking bytes, or if I should try out QuickTime.  If this can not be resolved by tomorrow AM, I may segue to QuickTime, which has a higher-level api than AudioToolbox.
 - cool. solved format error - wave format will work without additional manipulation.  
 - handling of dupFNErr error by erasing contents of previously existing file.
+- added code to clear file contents if it already exists.

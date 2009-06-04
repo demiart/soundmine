@@ -27,6 +27,7 @@
 - (void) _setUpFSRef;
 - (void) _setUpCFStringRef;
 - (void) _createNewAudioFile;
+- (void) _clearExistingAudioFile;
 - (void) _setUpStreamDescription: (MTCoreAudioDevice *) device;
 
 - (void) startRecording;
