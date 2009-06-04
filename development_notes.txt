@@ -63,3 +63,6 @@ Week of May 30 to June 5:
 - cool. solved format error - wave format will work without additional manipulation.  
 - handling of dupFNErr error by erasing contents of previously existing file.
 - added code to clear file contents if it already exists.
+- added code to push callback buffer data into file, and code to close file on stop.
+- tested successfully - records audio from mic to a wav file (listened to file in QuickTime)
+- need to add drop down (drawer?) to set file location, remove hardcoded location that is specific to my machine.

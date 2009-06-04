@@ -17,13 +17,13 @@ class Controller
 	def handleRecordingButtonChange(sender)
 		if @goButton.state == 0 then
 		    puts "stopping"
-		    @goButton.setTitle "stop"
 			@audioQ.stopRecording
+		    @goButton.setTitle "Record"
 		else
 		    puts "starting"
-		    @goButton.setTitle "record"
 			p "start!"
 			@audioQ.startRecording
+		    @goButton.setTitle "Stop"
 		end
 	end
 	

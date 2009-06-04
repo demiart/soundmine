@@ -75,8 +75,7 @@
 	NSLog(@"File creation status string: %s", GetMacOSStatusErrorString(status));
 	NSLog(@"File creation comment: %s", GetMacOSStatusCommentString(status));
 	NSLog(@"test %i", audioFileIDHandle);
-	if (audioFileIDHandle == 0) NSLog(@"Error: file already exists");
-	if (status == -48) [self _clearExistingAudioFile]; //existing file
+	if (audioFileIDHandle == 0) NSLog(@"Warning: file already exists");
 }
 
 - (void)_clearExistingAudioFile
@@ -98,7 +97,14 @@
 	NSLog(@"File clear status string: %s", GetMacOSStatusErrorString(status));
 	NSLog(@"File clear comment: %s", GetMacOSStatusCommentString(status));
 	NSLog(@"test %i", audioFileIDHandle);
-	if (audioFileIDHandle == 0) NSLog("Error: unable to clear file contents");
+	if (audioFileIDHandle == 0) 
+	{
+		NSLog(@"Error: unable to clear file contents");
+	}
+	else
+	{
+	    fileByteOffset = 0;	
+	};
 }
 
 - (void)_setUpStreamDescription: (MTCoreAudioDevice *) device
@@ -135,6 +141,15 @@
 	}
 }
 
+- (void)_closeExistingAudioFile
+{
+	OSStatus status = AudioFileClose(audioFileIDHandle);
+	
+	NSLog(@"File close status: %i", status);
+	NSLog(@"File close status string: %s", GetMacOSStatusErrorString(status));
+	NSLog(@"File close comment: %s", GetMacOSStatusCommentString(status));
+}
+
 - (void)dealloc
 {
 	free(basicStreamDescription);
@@ -146,12 +161,14 @@
 
 - (void)startRecording
 {
+	[self _clearExistingAudioFile];
     [inputDevice deviceStart];
 }
 
 - (void)stopRecording
 {
     [inputDevice deviceStop];
+	[self _closeExistingAudioFile];
 }
 
 - (OSStatus) readCycleForDevice: (MTCoreAudioDevice *) theDevice 
@@ -166,8 +183,30 @@
     buffer = &inputData->mBuffers[0];
 
 	//for debug - testing cptuing data
-	NSLog(@"Reading data %d", buffer->mDataByteSize);
-	NSLog(@"Tenth byte value %d", ((unsigned char *)buffer->mData)[10]);
+	//NSLog(@"Reading data %d", buffer->mDataByteSize);
+	//NSLog(@"Tenth byte value %d", ((unsigned char *)buffer->mData)[10]);
+	
+	UInt32 byteCount = buffer->mDataByteSize;
+	
+	//write to file
+	OSStatus status = AudioFileWriteBytes(
+		audioFileIDHandle,
+		false,
+		fileByteOffset,
+		&byteCount,
+		buffer->mData
+	);
+	
+	NSLog(@"File write status: %i", status);
+	NSLog(@"File write status string: %s", GetMacOSStatusErrorString(status));
+	NSLog(@"File write comment: %s", GetMacOSStatusCommentString(status));
+	
+	if (byteCount != buffer->mDataByteSize)
+	{
+	    NSLog(@"Error: requested write of %i bytes failed: wrote %i", buffer->mDataByteSize, byteCount);
+	}
+	
+	fileByteOffset += buffer->mDataByteSize;
 	
     return (noErr);
 	

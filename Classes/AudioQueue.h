@@ -21,6 +21,7 @@
 	CFStringRef audioFileName;
 	AudioFileTypeID audioFileType;
 	MTCoreAudioDevice *inputDevice;
+	UInt32 fileByteOffset;
 }
 
 - (void) _setUpAudioFileData: (MTCoreAudioDevice *) device;
@@ -28,6 +29,7 @@
 - (void) _setUpCFStringRef;
 - (void) _createNewAudioFile;
 - (void) _clearExistingAudioFile;
+- (void) _closeExistingAudioFile;
 - (void) _setUpStreamDescription: (MTCoreAudioDevice *) device;
 
 - (void) startRecording;
