@@ -7,7 +7,7 @@
 #
 
 class Controller
-	attr_accessor :goButton, :mainAudioView
+	attr_accessor :goButton, :playButton, :mainAudioView
 
     def initialize
 		@soundBuffer = []		
@@ -19,17 +19,17 @@ class Controller
 		    puts "stopping"
 			@audioQ.stopRecording
 		    @goButton.setTitle "Record"
+			#@playButton.enabled = true;
 		else
 		    puts "starting"
 			p "start!"
+			#@playButton.enabled = false;
 			@audioQ.startRecording
 		    @goButton.setTitle "Stop"
 		end
 	end
 	
-	def testselector
-	    p "testselector"
-		0
+	def handlePlayButtonChange(sender)
+	    p "play button pressed..."
 	end
-	
 end

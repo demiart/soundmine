@@ -66,3 +66,9 @@ Week of May 30 to June 5:
 - added code to push callback buffer data into file, and code to close file on stop.
 - tested successfully - records audio from mic to a wav file (listened to file in QuickTime)
 - need to add drop down (drawer?) to set file location, remove hardcoded location that is specific to my machine.
+- added button for playing file - not all wired in yet.
+
+Plan for week of June 6 through June 12:
+- Playback.
+- some visualization (time elapsed?  file size?) during recording.
+- choosing of save location and name...

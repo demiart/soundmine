@@ -216,10 +216,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>412F0BE80FD887CC0088ED70</string>
+						<string>417073700FD9D11B005C2AC9</string>
 						<key>history</key>
 						<array>
-							<string>412F0B760FD8599F0088ED70</string>
+							<string>412F0BEC0FD89FED0088ED70</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -272,6 +272,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -317,12 +319,9 @@
 								<string>1058C7A0FEA54F0111CA2CBB</string>
 								<string>1058C7A2FEA54F0111CA2CBB</string>
 								<string>41011EA30FD5B21B00F068C3</string>
-								<string>412F0AC60FD83B120088ED70</string>
 								<string>29B97324FDCFA39411CA2CEA</string>
 								<string>13E42FB307B3F0F600E4EEF1</string>
-								<string>412F0ACA0FD83B120088ED70</string>
 								<string>29B97325FDCFA39411CA2CEA</string>
-								<string>412F0ACC0FD83B120088ED70</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FABC05509CD000000102</string>
 								<string>1CC0EA4004350EF90041110B</string>
@@ -331,7 +330,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
+									<integer>16</integer>
+									<integer>12</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -366,14 +366,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>development_notes.txt</string>
+								<string>AudioQueue.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -381,11 +379,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>development_notes.txt</string>
+										<string>AudioQueue.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>412F0BE70FD887CC0088ED70</string>
+										<string>4170736D0FD9D11B005C2AC9</string>
 										<key>history</key>
 										<array>
 											<string>419B89BE0FCE23CB007591FA</string>
@@ -401,9 +399,9 @@
 											<string>412F0B7A0FD85AF10088ED70</string>
 											<string>412F0BC40FD8837C0088ED70</string>
 											<string>412F0BD10FD885E90088ED70</string>
-											<string>412F0BE00FD886F60088ED70</string>
 											<string>412F0BE50FD887CC0088ED70</string>
-											<string>412F0BAE0FD882710088ED70</string>
+											<string>412F0BE90FD89FED0088ED70</string>
+											<string>412F0BEB0FD89FED0088ED70</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -422,33 +420,7 @@
 											<string>410120010FD5D59400F068C3</string>
 											<string>410120030FD5D59400F068C3</string>
 											<string>410120050FD5D59400F068C3</string>
-											<string>412F0B7D0FD85AF10088ED70</string>
-											<string>412F0B7E0FD85AF10088ED70</string>
-											<string>412F0B7F0FD85AF10088ED70</string>
-											<string>412F0B800FD85AF10088ED70</string>
-											<string>412F0B810FD85AF10088ED70</string>
-											<string>412F0B8B0FD85B840088ED70</string>
-											<string>412F0B990FD85DAE0088ED70</string>
-											<string>412F0B9A0FD85DAE0088ED70</string>
-											<string>412F0B9B0FD85DAE0088ED70</string>
-											<string>412F0B9C0FD85DAE0088ED70</string>
-											<string>412F0B9D0FD85DAE0088ED70</string>
-											<string>412F0B9E0FD85DAE0088ED70</string>
-											<string>412F0BB00FD882710088ED70</string>
-											<string>412F0BB10FD882710088ED70</string>
-											<string>412F0BBA0FD882F90088ED70</string>
 											<string>412F0BBB0FD882F90088ED70</string>
-											<string>412F0BBD0FD882F90088ED70</string>
-											<string>412F0BC60FD8837C0088ED70</string>
-											<string>412F0BC70FD8837C0088ED70</string>
-											<string>412F0BD30FD885E90088ED70</string>
-											<string>412F0BD40FD885E90088ED70</string>
-											<string>412F0BD50FD885E90088ED70</string>
-											<string>412F0BD60FD885E90088ED70</string>
-											<string>412F0BD70FD885E90088ED70</string>
-											<string>412F0BD80FD885E90088ED70</string>
-											<string>412F0BE20FD886F60088ED70</string>
-											<string>412F0BE60FD887CC0088ED70</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -506,9 +478,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>412F0ACE0FD83B190088ED70</string>
+				<string>4170736E0FD9D11B005C2AC9</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>412F0ACF0FD83B190088ED70</string>
+				<string>4170736F0FD9D11B005C2AC9</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -642,10 +614,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>4191B6820FC4B3EB00FF07A7</string>
 		<string>412F0B830FD85AF10088ED70</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/kirklandnokia/Desktop/soundmine/soundmine.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
