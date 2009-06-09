@@ -14,6 +14,10 @@ class Controller
 		@audioQ = AudioQueue.new
 	end
 
+	def handlePlayButtonChange(sender)
+	    p "play button pressed..."
+	end
+	
 	def handleRecordingButtonChange(sender)
 		if @goButton.state == 0 then
 		    puts "stopping"
@@ -27,9 +31,5 @@ class Controller
 			@audioQ.startRecording
 		    @goButton.setTitle "Stop"
 		end
-	end
-	
-	def handlePlayButtonChange(sender)
-	    p "play button pressed..."
 	end
 end

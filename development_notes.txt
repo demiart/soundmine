@@ -75,3 +75,5 @@ Plan for week of June 6 through June 12:
 
 Week of June 6 to June 12:
 - installed xcode and cloned project to new MacBook Pro (personal use vs. work)
+- having issues getting the controller to re-load in interface builder - need this to work to add in play button...
+- did some work on the menus.  Want to get "Save To..." working

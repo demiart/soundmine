@@ -256,7 +256,7 @@
 				29B97319FDCFA39411CA2CEA /* English */,
 			);
 			name = MainMenu.nib;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
