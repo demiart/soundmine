@@ -1,0 +1,69 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B737C6660FDE38D400DF9DE2 /* soundmine */;
+		activeTarget = 8D1107260486CEB800E47090 /* soundmine */;
+		codeSenseManager = B737C6760FDE38F300DF9DE2 /* Code sense */;
+		executables = (
+			B737C6660FDE38D400DF9DE2 /* soundmine */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 266221780;
+			PBXWorkspaceStateSaveDate = 266221780;
+		};
+		sourceControlManager = B737C6750FDE38F300DF9DE2 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4102AB760FC5024C00163762 /* Controller.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 504}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2, 593}";
+		};
+	};
+	412F73530FD064AB007B8615 /* macruby_embedded */ = {
+		activeExec = 0;
+	};
+	8D1107260486CEB800E47090 /* soundmine */ = {
+		activeExec = 0;
+		executables = (
+			B737C6660FDE38D400DF9DE2 /* soundmine */,
+		);
+	};
+	B737C6660FDE38D400DF9DE2 /* soundmine */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = soundmine;
+		sourceDirectories = (
+		);
+	};
+	B737C6750FDE38F300DF9DE2 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	B737C6760FDE38F300DF9DE2 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

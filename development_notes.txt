@@ -72,3 +72,6 @@ Plan for week of June 6 through June 12:
 - Playback.
 - some visualization (time elapsed?  file size?) during recording.
 - choosing of save location and name...
+
+Week of June 6 to June 12:
+- installed xcode and cloned project to new MacBook Pro (personal use vs. work)
