@@ -79,7 +79,6 @@
 			children = (
 				41BC51040FC7B340002ADE96 /* AudioQueue.h */,
 				41BC51050FC7B340002ADE96 /* AudioQueue.m */,
-				4102AB760FC5024C00163762 /* Controller.rb */,
 				41BC510C0FC7B7A4002ADE96 /* AudioView.h */,
 				41BC510D0FC7B7A4002ADE96 /* AudioView.m */,
 			);
@@ -120,6 +119,7 @@
 			children = (
 				412F73940FD0665E007B8615 /* README */,
 				41BC50FF0FC7AD2C002ADE96 /* development_notes.txt */,
+				4102AB760FC5024C00163762 /* Controller.rb */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,

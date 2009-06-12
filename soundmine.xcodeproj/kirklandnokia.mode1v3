@@ -231,6 +231,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -280,6 +282,7 @@
 								<string>13E42FB307B3F0F600E4EEF1</string>
 								<string>29B97325FDCFA39411CA2CEA</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
+								<string>1C37FBAC04509CD000000102</string>
 								<string>1C08E77C0454961000C914BD</string>
 								<string>1C37FABC05509CD000000102</string>
 								<string>1CC0EA4004350EF90041110B</string>
@@ -288,12 +291,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
+									<integer>16</integer>
+									<integer>12</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 31}, {336, 667}}</string>
+							<string>{{0, 5}, {336, 667}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -312,7 +316,7 @@
 							<real>336</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>1657 55 1281 726 1440 -60 1680 1050 </string>
+						<string>1503 158 1281 726 1440 -60 1680 1050 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -323,14 +327,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>development_notes.txt</string>
+								<string>Controller.rb</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -338,11 +340,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>development_notes.txt</string>
+										<string>Controller.rb</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>41F4F23D0FDF3B080095C44D</string>
+										<string>41FB95D30FE2EEAE006A2AE8</string>
 										<key>history</key>
 										<array>
 											<string>416B7D5C0FCF6042001C17DF</string>
@@ -357,12 +359,12 @@
 											<string>412F0BD10FD885E90088ED70</string>
 											<string>41F7DA620FDDDB09000928E5</string>
 											<string>41F4F20C0FDEEBFF0095C44D</string>
-											<string>41F4F20E0FDEEBFF0095C44D</string>
-											<string>41F4F20F0FDEEBFF0095C44D</string>
 											<string>41F4F2290FDEF7ED0095C44D</string>
-											<string>41F4F22A0FDEF7ED0095C44D</string>
-											<string>41F4F2390FDEFB280095C44D</string>
-											<string>41F4F2100FDEEBFF0095C44D</string>
+											<string>41FB95A90FE2EC1C006A2AE8</string>
+											<string>41FB95C70FE2ED98006A2AE8</string>
+											<string>41FB95C80FE2ED98006A2AE8</string>
+											<string>41FB95C90FE2ED98006A2AE8</string>
+											<string>41FB95CA0FE2ED98006A2AE8</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -383,20 +385,12 @@
 											<string>410120050FD5D59400F068C3</string>
 											<string>412F0BBB0FD882F90088ED70</string>
 											<string>41F7DA640FDDDB09000928E5</string>
-											<string>41F4F2120FDEEBFF0095C44D</string>
 											<string>41F4F2130FDEEBFF0095C44D</string>
-											<string>41F4F2140FDEEBFF0095C44D</string>
-											<string>41F4F2150FDEEBFF0095C44D</string>
-											<string>41F4F2160FDEEBFF0095C44D</string>
-											<string>41F4F2170FDEEBFF0095C44D</string>
-											<string>41F4F2180FDEEBFF0095C44D</string>
-											<string>41F4F2190FDEEBFF0095C44D</string>
-											<string>41F4F21A0FDEEBFF0095C44D</string>
-											<string>41F4F21B0FDEEBFF0095C44D</string>
-											<string>41F4F22C0FDEF7ED0095C44D</string>
-											<string>41F4F22D0FDEF7ED0095C44D</string>
-											<string>41F4F22E0FDEF7ED0095C44D</string>
-											<string>41F4F23A0FDEFB280095C44D</string>
+											<string>41FB95AB0FE2EC1C006A2AE8</string>
+											<string>41FB95CB0FE2ED98006A2AE8</string>
+											<string>41FB95CC0FE2ED98006A2AE8</string>
+											<string>41FB95CD0FE2ED98006A2AE8</string>
+											<string>41FB95CE0FE2ED98006A2AE8</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -410,7 +404,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {923, 595}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1657 55 1281 726 1440 -60 1680 1050 </string>
+								<string>1503 158 1281 726 1440 -60 1680 1050 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -430,7 +424,7 @@
 								<key>Frame</key>
 								<string>{{0, 600}, {923, 85}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1657 55 1281 726 1440 -60 1680 1050 </string>
+								<string>1503 158 1281 726 1440 -60 1680 1050 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -454,9 +448,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>41F4F1DF0FDEDA7A0095C44D</string>
+				<string>41FB95AD0FE2EC1C006A2AE8</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>41F4F1E00FDEDA7A0095C44D</string>
+				<string>41FB95AE0FE2EC1C006A2AE8</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -591,11 +585,12 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>1C78EAAD065D492600B07095</string>
-		<string>4191B6820FC4B3EB00FF07A7</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>4191B6820FC4B3EB00FF07A7</string>
+		<string>/Users/kirklandnokia/Desktop/soundmine/soundmine.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>1657 55 1281 726 1440 -60 1680 1050 </string>
+	<string>1503 158 1281 726 1440 -60 1680 1050 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -672,7 +667,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>4191B6820FC4B3EB00FF07A7</string>
-				<string>41F4F21D0FDEEBFF0095C44D</string>
+				<string>41FB95AF0FE2EC1C006A2AE8</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -792,13 +787,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>41F4F1E80FDEDCB90095C44D</string>
+				<string>41FB95B00FE2EC1C006A2AE8</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>41F4F1E90FDEDCB90095C44D</string>
-				<string>41F4F1EA0FDEDCB90095C44D</string>
-				<string>41F4F1EB0FDEDCB90095C44D</string>
-				<string>41F4F1EC0FDEDCB90095C44D</string>
-				<string>41F4F1ED0FDEDCB90095C44D</string>
+				<string>41FB95B10FE2EC1C006A2AE8</string>
+				<string>41FB95B20FE2EC1C006A2AE8</string>
+				<string>41FB95B30FE2EC1C006A2AE8</string>
+				<string>41FB95B40FE2EC1C006A2AE8</string>
+				<string>41FB95B50FE2EC1C006A2AE8</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -960,7 +955,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>41F4F23C0FDEFB280095C44D</string>
+				<string>41FB95B60FE2EC1C006A2AE8</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

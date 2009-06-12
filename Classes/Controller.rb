@@ -6,7 +6,10 @@
 #  Copyright (c) 2009 __MyCompanyName__. All rights reserved.
 #
 
-class Controller
+framework 'Cocoa'
+framework 'MTCoreAudio'
+
+class GeneralController
 	attr_accessor :goButton, :playButton, :mainAudioView
 
     def initialize
