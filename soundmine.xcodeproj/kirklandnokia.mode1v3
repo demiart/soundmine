@@ -342,7 +342,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>41F4F23B0FDEFB280095C44D</string>
+										<string>41F4F23D0FDF3B080095C44D</string>
 										<key>history</key>
 										<array>
 											<string>416B7D5C0FCF6042001C17DF</string>
@@ -593,7 +593,6 @@
 		<string>1C78EAAD065D492600B07095</string>
 		<string>4191B6820FC4B3EB00FF07A7</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>/Users/kirklandnokia/Desktop/soundmine/soundmine.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>1657 55 1281 726 1440 -60 1680 1050 </string>
